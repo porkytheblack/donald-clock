@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-function useTime() {
+function useTime() {  
     const [time, setTime] = useState(new Date())
     useEffect(() => {
         const interal_ref = setInterval(()=>{
